@@ -1,0 +1,15 @@
+C:\DevSRCLocal\JsonX\SRC\bin\Debug\net6.0\win-x64\JsonX.exe
+C:\DevSRCLocal\JsonX\SRC\bin\Debug\net6.0\win-x64\JsonX.deps.json
+C:\DevSRCLocal\JsonX\SRC\bin\Debug\net6.0\win-x64\JsonX.runtimeconfig.json
+C:\DevSRCLocal\JsonX\SRC\bin\Debug\net6.0\win-x64\JsonX.dll
+C:\DevSRCLocal\JsonX\SRC\bin\Debug\net6.0\win-x64\JsonX.pdb
+C:\DevSRCLocal\JsonX\SRC\obj\Debug\net6.0\win-x64\JsonX.csproj.AssemblyReference.cache
+C:\DevSRCLocal\JsonX\SRC\obj\Debug\net6.0\win-x64\JsonX.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevSRCLocal\JsonX\SRC\obj\Debug\net6.0\win-x64\JsonX.AssemblyInfoInputs.cache
+C:\DevSRCLocal\JsonX\SRC\obj\Debug\net6.0\win-x64\JsonX.AssemblyInfo.cs
+C:\DevSRCLocal\JsonX\SRC\obj\Debug\net6.0\win-x64\JsonX.csproj.CoreCompileInputs.cache
+C:\DevSRCLocal\JsonX\SRC\obj\Debug\net6.0\win-x64\JsonX.dll
+C:\DevSRCLocal\JsonX\SRC\obj\Debug\net6.0\win-x64\refint\JsonX.dll
+C:\DevSRCLocal\JsonX\SRC\obj\Debug\net6.0\win-x64\JsonX.pdb
+C:\DevSRCLocal\JsonX\SRC\obj\Debug\net6.0\win-x64\JsonX.genruntimeconfig.cache
+C:\DevSRCLocal\JsonX\SRC\obj\Debug\net6.0\win-x64\ref\JsonX.dll
