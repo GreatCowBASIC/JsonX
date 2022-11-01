@@ -14,11 +14,14 @@ Alpha, For internal use.
 
 ## Downloads
 
-[Current Build](https://github.com/)
+[Current Build](https://github.com/GreatCowBASIC/JsonX/tree/master/Build)
 
+
+# License
+GCstudio is released under [MIT License](https://github.com/GreatCowBASIC/JsonX/blob/master/LICENSE)
 
 ----
 # Conduct
 
-Great Cow Basic and GC Studio projects adopt the [GCB Open Source Code of Conduct](https://github.com/GreatCowBASIC/GreatCowBASIC/blob/main/CODE_OF_CONDUCT.md).
+Great Cow Basic and GC Studio projects adopt the [GCB Open Source Code of Conduct](https://github.com/GreatCowBASIC/JsonX/blob/master/CODE_OF_CONDUCT.md).
 
