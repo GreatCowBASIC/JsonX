@@ -29,28 +29,27 @@ if (arguments.Length == 1)
 }
 else if (arguments.Length == 3)
 {
-        try 
-        {
-    StreamR = File.OpenText(arguments[1]);
+    try 
+    {
+        StreamR = File.OpenText(arguments[1]);
+        JsonData = StreamR.ReadToEnd();
+        StreamR.Close();
 
-    JsonData = StreamR.ReadToEnd();
-    StreamR.Close();
-
-    using (var reader = JsonReaderWriterFactory.CreateJsonReader(Encoding.UTF8.GetBytes(JsonData), XmlDictionaryReaderQuotas.Max))
+        using (var reader = JsonReaderWriterFactory.CreateJsonReader(Encoding.UTF8.GetBytes(JsonData), XmlDictionaryReaderQuotas.Max))
     {
         XElement xml = XElement.Load(reader);
         XmlData.LoadXml(xml.ToString());
     }
 
-           StreamW = File.CreateText(arguments[2]);
-           StreamW.WriteLine(XmlData.OuterXml);
-           StreamW.Close();
+        StreamW = File.CreateText(arguments[2]);
+        StreamW.WriteLine(XmlData.OuterXml);
+        StreamW.Close();
 
-        }
-        catch
-        {
-            Console.WriteLine("Error while converting Json file.");
-        }
+    }
+    catch
+    {
+        Console.WriteLine("Error while converting Json file.");
+    }
 }
 else
 {
