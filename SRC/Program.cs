@@ -11,13 +11,22 @@ XmlDocument XmlData = new XmlDocument();
 System.IO.StreamWriter StreamW;
 System.IO.StreamReader StreamR;
 
+StringBuilder StrBuilder = new StringBuilder();
+XmlWriterSettings XmlSettings = new XmlWriterSettings
+{
+    Indent = true,
+    IndentChars = "  ",
+    NewLineChars = "\r\n",
+    NewLineHandling = NewLineHandling.Replace
+};
+
 arguments = Environment.GetCommandLineArgs();
 
 if (arguments.Length == 1)
 {
-    Console.WriteLine("***************");
-    Console.WriteLine("*    JsonX    *");
-    Console.WriteLine("***************");
+    Console.WriteLine("*********************");
+    Console.WriteLine("*    JsonX  V.0.02  *");
+    Console.WriteLine("*********************");
     Console.WriteLine("");
     Console.WriteLine("");
     Console.WriteLine("Simple command line Json file converter to Xml file.  By Angel Mier");
@@ -41,8 +50,14 @@ else if (arguments.Length == 3)
         XmlData.LoadXml(xml.ToString());
     }
 
+        using (XmlWriter writer = XmlWriter.Create(StrBuilder, XmlSettings))
+        {
+            XmlData.Save(writer);
+        }
+
+
         StreamW = File.CreateText(arguments[2]);
-        StreamW.WriteLine(XmlData.OuterXml);
+        StreamW.WriteLine(StrBuilder.ToString());
         StreamW.Close();
 
     }
