@@ -25,7 +25,7 @@ arguments = Environment.GetCommandLineArgs();
 if (arguments.Length == 1)
 {
     Console.WriteLine("*********************");
-    Console.WriteLine("*    JsonX  V.0.02  *");
+    Console.WriteLine("*    JsonX  V.0.03  *");
     Console.WriteLine("*********************");
     Console.WriteLine("");
     Console.WriteLine("");

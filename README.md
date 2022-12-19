@@ -5,7 +5,7 @@ Without the limitations implied by Json.net lib.
 
 It uses internal .Net Framework parsers.
 
-Uses .Net 6.0
+Uses .Net 7.0
 
 
 ## Current Status

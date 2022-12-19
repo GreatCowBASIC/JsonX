@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vyo1odY5RJqO+Zn4jWZGWCVHeQeNHsUS3Fg5DtQdQnHdpqYL8Dv5B8MR4nyWwzxGH4eoHzibKbT7nUAtdt0ASQ==",
+  "dgSpecHash": "TQYXMbeHd3jruaM1U/LAsVll9m2CqNWMDtJ/52Lo1RgP6ljIIk8t/MWh6AYdHnbhIMu40YglEpp4fwMk+o3rrg==",
   "success": true,
-  "projectFilePath": "C:\\DevSRCLocal\\JsonX\\SRC\\JsonX.csproj",
+  "projectFilePath": "C:\\DevSRCLocal\\GCB\\JsonX\\SRC\\JsonX.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
